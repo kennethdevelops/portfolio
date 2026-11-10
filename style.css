@@ -96,3 +96,9 @@ dialog .solo-recording{aspect-ratio:1.493;height:auto}
 @media(prefers-reduced-motion:reduce){.game-play-button{transition:none}.game-play-button:hover{transform:none}}
 
 .tech-tags{display:flex;flex-wrap:wrap;gap:7px;list-style:none;padding:0;margin:17px 0 0}.tech-tags li,dialog .tech-tags li{font:11px/1.5 'DM Sans',Arial,sans-serif;letter-spacing:0;padding:5px 9px;border:1px solid var(--line);border-radius:4px;color:var(--muted);margin:0;max-width:100%;overflow-wrap:anywhere}.feature-actions{margin:16px 0 20px}.feature-actions .trailer-link{margin:0}.steam-icon{width:20px;height:20px;flex-shrink:0;display:block}.steam-link:hover{color:var(--paper)}
+
+/* ReproLab / AI engineering */
+.rl-media{background:#161b16;min-height:0;display:flex;align-items:center;padding:66px 22px 80px}.rl-diagram{width:100%;height:auto;display:block}.feature-copy code,dialog code{font:12px ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--tag);padding:1px 5px;border-radius:3px}.inline-link{color:var(--accent);border-bottom:1px solid}.case-diagram{background:#161b16;padding:22px;margin-block:24px;border-radius:4px}dialog .case-intro{font-size:15px;color:var(--ink)}dialog li strong{color:var(--ink);font-weight:600}
+@media(max-width:780px){.rl-media{padding:58px 14px 74px}}
+.rl-diagrams{width:100%}.rl-narrow{display:none}@media(max-width:600px){.rl-wide{display:none}.rl-narrow{display:block;max-width:340px;margin-inline:auto}.case-diagram{padding:14px}}
+#work [data-tags][hidden],#work .project-grid[hidden],#work .recent-heading[hidden]{display:none!important}.featured+.featured{margin-top:30px}
